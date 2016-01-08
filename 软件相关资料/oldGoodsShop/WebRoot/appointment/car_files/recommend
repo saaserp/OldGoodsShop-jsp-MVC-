@@ -1,0 +1,58 @@
+
+jsonp420({
+  "result": [
+    {
+      "itemId": 40272354595,
+      "itemName": "小米官方旗舰店MIUI/小米 小米手机4 小米4代 MI4智能4G手机包邮",
+      "price": 1999.0,
+      "promotionPrice": 0.0,
+      "categoryId": 1512,
+      "url": "http://item.taobao.com/item.htm?id=40272354595&scm=1007.10008.4402.1&pvid=581d4869-6d25-4e1f-9c87-4ac80b96ceeb",
+      "pic": "http://img01.taobaocdn.com/bao/uploaded/i1/TB1060bHXXXXXaEXVXXXXXXXXXX_!!0-item_pic.jpg",
+      "sellCount": 453570,
+      "monthSellCount": 81519,
+      "extMap": {}
+    },
+    {
+      "itemId": 40403641398,
+      "itemName": "Huawei/华为 H60-L02 华为荣耀6 联通4G版智能手机 双卡",
+      "price": 1999.0,
+      "promotionPrice": 0.0,
+      "categoryId": 1512,
+      "url": "http://item.taobao.com/item.htm?id=40403641398&scm=1007.10008.4402.1&pvid=581d4869-6d25-4e1f-9c87-4ac80b96ceeb",
+      "pic": "http://img01.taobaocdn.com/bao/uploaded/i1/TB1wGBhGXXXXXcwaXXXXXXXXXXX_!!0-item_pic.jpg",
+      "sellCount": 30435,
+      "monthSellCount": 2922,
+      "extMap": {}
+    },
+    {
+      "itemId": 43425567904,
+      "itemName": "Huawei/华为 荣耀畅玩4X 移动高配版  安卓智能手机",
+      "price": 1299.0,
+      "promotionPrice": 0.0,
+      "categoryId": 1512,
+      "url": "http://item.taobao.com/item.htm?id=43425567904&scm=1007.10008.4402.1&pvid=581d4869-6d25-4e1f-9c87-4ac80b96ceeb",
+      "pic": "http://img03.taobaocdn.com/bao/uploaded/i3/TB1QFyZGFXXXXXTaXXXXXXXXXXX_!!0-item_pic.jpg",
+      "sellCount": 14365,
+      "monthSellCount": 8922,
+      "extMap": {}
+    },
+    {
+      "itemId": 42593126610,
+      "itemName": "Huawei/华为 荣耀畅玩4X 全网通高配版  安卓智能手机",
+      "price": 1599.0,
+      "promotionPrice": 0.0,
+      "categoryId": 1512,
+      "url": "http://item.taobao.com/item.htm?id=42593126610&scm=1007.10008.4402.1&pvid=581d4869-6d25-4e1f-9c87-4ac80b96ceeb",
+      "pic": "http://img03.taobaocdn.com/bao/uploaded/i3/TB1QFyZGFXXXXXTaXXXXXXXXXXX_!!0-item_pic.jpg",
+      "sellCount": 26046,
+      "monthSellCount": 10274,
+      "extMap": {}
+    }
+  ],
+  "pvid": "581d4869-6d25-4e1f-9c87-4ac80b96ceeb",
+  "debuginfo": "",
+  "time_used": 9,
+  "scm": "1007.10008.4402.1",
+  "version": 1.0
+});

@@ -1,0 +1,294 @@
+html,body {
+	font-size:12px;
+
+}
+body {
+	padding:30px 0 0 0;
+	font-size:12px;
+	margin:0;
+	height:100%;
+	background-color:#eee;
+	font:12px/1.5 Arial,Tahoma,Helvetica,sans-serif;
+}
+#barframe {
+	width:100%;
+	height:100%;
+	z-index:3;
+	position:absolute;
+}
+#barload {
+	position:absolute;
+	top:50%;
+	font-size:14px;
+	left:48%;
+	z-index:1;
+	color:#888;
+}
+#bar {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	height:30px;
+	overflow:hidden;
+	background: #ddd url(/images/bar/bar.gif) repeat-x scroll 0 0;
+	color:#fff;
+	z-index:2;
+	line-height:30px;
+	width:100%;
+}
+.barImage {
+	margin:20px 0;
+}
+#bar a,#bar p {
+	display:block;
+	float:left;
+	height:30px;
+	margin:0;
+}
+#bar a {
+	background:transparent url(/images/bar/sp.png) no-repeat scroll 0 0;
+	_background:transparent url(/images/bar/sp-ie6.gif) no-repeat scroll 0 0;
+	overflow:hidden;
+	text-decoration:none;
+	color:#fff;
+	line-height:30px;
+}
+#bar a.logo {
+	width:50px;
+	text-indent:-99999px;
+}
+#bar a.link {
+	background-position:0 -31px;
+	position:relative;
+	padding:0 5px 0 32px;
+	overflow:visible;
+	_padding-left:10px;
+}
+#bar a.link em {
+	width:30px;
+	height:30px;
+	display:block;
+	position:absolute;
+	left:5px;
+	top:0;
+	background:transparent url(/images/bar/sp.png) no-repeat scroll 0 -61px;
+	_display:none;
+}
+#bar a.linkimage em {
+	background-position:-30px -61px;
+}
+#bar a.linkvideo em {
+	background-position:-60px -61px;
+}
+#bar a.link span {
+	width:10px;
+	height:30px;
+	display:block;
+	position:absolute;
+	right:-10px;
+	top:0;
+	background:transparent url(/images/bar/sp.png) no-repeat scroll -390px -31px;
+	_background:transparent url(/images/bar/sp-ie6.gif) no-repeat scroll -390px -31px;
+}
+#bar p.action,#bar p.share,#bar a.keeper,#bar a.next,#bar a.close {
+	position:absolute;
+	top:0;
+}
+#bar a.close {
+	right:5px;
+	width:16px;
+	background-position:-367px -150px;
+}
+#bar a.next {
+	width:86px;
+	background-position:-3px -151px;
+	right:30px;
+	text-indent:-99999px;
+}
+#bar a.next:hover {
+	background-position:-94px -151px;
+}
+#bar a.keeper {
+	right:130px;
+	background:none;
+	_margin-top:5px;
+}
+#bar a.keeper img {
+	width:18px;
+	height:18px;
+	background-color:#fff;
+	border:1px solid #fff;
+	vertical-align:middle;
+	margin-top:-1px;
+}
+#bar p.share {
+	width:151px;
+	right:210px;
+	background:transparent url(/images/bar/sp.png) no-repeat scroll 0 -122px;
+	_background:transparent url(/images/bar/sp-ie6.gif) no-repeat scroll 0 -122px;
+}
+#bar p.share a {
+	background:none;
+	width:18px;
+	display:inline;
+	padding:0;
+}
+#bar p.share a.sina {
+	margin:0 8px;
+}
+#bar p.share a.qq {
+	margin:0 6px 0 2px;
+}
+#bar p.share a.renren {
+	margin:0 6px 0 0;
+}
+#bar p.share a.kaixin {
+	margin:0 5px 0 0;
+}
+#bar p.share a.sohu {
+	margin:0 5px 0 0;
+}
+#bar p.action {
+	right:370px;
+}
+#bar p.action a {
+	padding-left:30px;
+}
+#bar p.action a.keep {
+	background-position:-120px -90px;
+}
+#bar p.action a.keeped {
+	background-position:0 -90px;
+	cursor:default;
+}
+#bar p.action a.comment {
+	background-position:-240px -91px;
+}
+#bar p.action a.flag {
+	background-position:-360px -91px;
+}
+.bartip {
+	width:259px;
+	position:absolute;
+	z-index:4;
+	top:25px;
+}
+.bartip .t {
+	height:15px;
+	background:transparent url(/images/bar/sp.png) scroll no-repeat -1px -180px;
+	_display:none;
+}
+.bartip .b {
+	background:#444;
+	color:#fff;
+}
+.bartip .b .loading {
+	height:100px;
+	background:transparent url(/images/bar/load.gif) scroll no-repeat center center;
+}
+.bartip .f {
+	height:10px;
+	background:transparent url(/images/bar/sp.png) scroll no-repeat -1px -200px;
+	_display:none;
+}
+.bartip .b .form {
+	padding:5px 10px;
+	position:relative;
+}
+.bartip .b .form textarea {
+	width:95%;
+	font-size:12px;
+	height:50px;
+	padding:5px;
+}
+.bartip .b .form a.submit {
+	color:#333;
+	text-decoration:none;
+	position:absolute;
+	background:transparent url(/images/bar/sp.png) scroll no-repeat 0 -210px;
+	_background:transparent url(/images/bar/sp-ie6.gif) no-repeat scroll 0 -210px;
+	padding:5px 21px;
+	top:70px;
+	right:10px;
+	_padding-top:5px;
+	_padding-bottom:0;
+	_line-height:24px;
+}
+.bartip .commentLst h3 {
+	margin:0;
+	padding:5px 5px 5px 10px;
+	font-size:12px;
+}
+.bartip .commentLst .item {
+	border-top:1px solid #aaa;
+	overflow:auto;
+	padding:5px 10px;
+}
+.bartip .commentLst .itemf {
+	text-align:right;
+}
+.bartip .commentLst .item a {
+	color:#999;
+	text-decoration:none;
+}
+.bartip .commentLst .item a:hover {
+	text-decoration:underline;
+}
+.bartip .commentLst .item a.user {
+	float:left;
+	margin-top:5px;
+}
+.bartip .commentLst .item a.user img {
+	width:30px;
+	height:30px;
+	border:1px solid #fff;
+}
+.bartip .commentLst .item p {
+	padding-left:40px;
+	margin:0;
+	color:#ccc;
+}
+.bartip .commentLst .item p a {
+	color:#ccc;
+}
+.bartip .commentLst .item p a.username {
+	color:#fff;
+}
+.bartip .commentLst .item p span {
+	display:block;
+}
+.bartip .loginLst {
+	padding:5px 20px;
+	color:#fff;
+	font-size:14px;
+}
+.bartip .loginLst a {
+	color:#fff;
+}
+.done {
+	background:#444;
+	color:#fff;
+	font-size:14px;
+	left:48%;
+	line-height:50px;
+	position:absolute;
+	text-align:center;
+	top:100px;
+	width:60px;
+	height:50px;
+	z-index:10;
+	overflow:hidden;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	border-radius:5px;
+}
+.smiley{
+	width:32px;
+	height:32px;
+}
+.content{margin:30px}
+body,h1,h2,h3,h4,h5,h6,div,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+fieldset,img{border:0}
+h1,h2,h3,h4,h5,h6{font-size:100%}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" id="WebApp_ID">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>com.dkkj.modular.login.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerConfirm</servlet-name>
+    <servlet-class>com.dkkj.modular.buy.CustomerConfirm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HostConfirm</servlet-name>
+    <servlet-class>com.dkkj.modular.buy.HostConfirm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddtoAppointment</servlet-name>
+    <servlet-class>com.dkkj.modular.buy.AddtoAppointment</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoods</servlet-name>
+    <servlet-class>com.dkkj.goodsmanagement.AddGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadPic</servlet-name>
+    <servlet-class>com.dkkj.goodsmanagement.UploadPic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteAppointment</servlet-name>
+    <servlet-class>com.dkkj.modular.buy.DeleteAppointment</servlet-class>
+  </servlet>
+
+ 
+
+
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/servlet/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerConfirm</servlet-name>
+    <url-pattern>/CustomerConfirm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HostConfirm</servlet-name>
+    <url-pattern>/HostConfirm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddtoAppointment</servlet-name>
+    <url-pattern>/AddtoAppointment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoods</servlet-name>
+    <url-pattern>/AddGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadPic</servlet-name>
+    <url-pattern>/UploadPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteAppointment</servlet-name>
+    <url-pattern>/DeleteAppointment</url-pattern>
+  </servlet-mapping>
+  <display-name>oldGoodsShop</display-name>
+  <filter>
+    <filter-name>loginCheck</filter-name>
+    <filter-class>com.dkkj.modular.login.LoginCheckFilter</filter-class>
+    </filter>
+    <filter-mapping>
+    <filter-name>loginCheck</filter-name>
+    <url-pattern>/servlet/AddtoAppointment</url-pattern>
+    </filter-mapping>
+    <welcome-file-list>
+    	<welcome-file>index.html</welcome-file>
+    	<welcome-file>index.htm</welcome-file>
+    	<welcome-file>index.jsp</welcome-file>
+    	<welcome-file>default.html</welcome-file>
+    	<welcome-file>default.htm</welcome-file>
+    	<welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+   
+</web-app>

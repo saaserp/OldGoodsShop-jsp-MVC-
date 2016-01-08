@@ -1,0 +1,112 @@
+/* CSS Document */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	width: 960px;
+	margin: 0 auto;
+	font: 700 10px/ 20px Verdana;
+	color: #000000;
+	background-color: #f5f5f5;
+}
+.goodsPicDiv1 {
+	padding-top: 50px;
+	padding-left: 10px;
+	background-color: #ffffff;
+	width: 450px;
+	height: 500px;
+	float: left;
+}
+.goodsPicDiv2 {
+	padding: 10px;
+	background-color: #ffffff;
+	width: 420px;
+	height: 418px;
+	border: 1px solid rgba(0, 0, 0, .05);
+	border: 1px solid #c0c0c0\9;
+	float: left;
+}
+.goodsGoodsAppointment {
+	background-color: #ffffff;
+	width: 500px;
+	height: 150px;
+	border: 1px solid rgba(0, 0, 0, .05);
+	border: 1px solid #c0c0c0\9;
+}
+.userDiv {
+	padding: 10px;
+	background-color: #ffffff;
+	width: 940px;
+	height: 100px;
+	border: 1px solid rgba(0, 0, 0, .05);
+	border: 1px solid #c0c0c0\9;
+	float: left;
+}
+.goodsDetail {
+	padding-top: 50px;
+	background-color: #ffffff;
+	width: 500px;
+	float: left;
+	height: 500px;
+	float: left;
+}
+.tb-btn-basket {
+	margin: 0 auto;
+	background-color: #c40000;
+	border: 1px solid #c40000;
+	color: #fff;
+	width: 184px;
+	height: 40px;
+}
+ma {
+	background: url(images/btn_buy.gif) left 0;
+	color: #fff;
+	text-decoration: none;
+	height: 30px;
+	float: left;
+	cursor: hand;
+	margin: 0 5px 0 0;
+}
+ma:hover {
+	background: url(images/btn_buy.gif) left -30px;
+	height: 30px;
+}
+ma span {
+	background: url(images/btn_buy.gif) right 0;
+	padding: 7px 8px 7px 0;
+	margin: 0 0 0 8px;
+	float: left;
+	height: 16px;
+}
+ma:hover span {
+	background: url(btn_buy.gif) right -30px;
+	color: #000;
+	padding: 7px 8px 7px 0;
+	margin: 0 0 0 8px;
+	height: 16px;
+}
+.temp {
+	height: 24px;
+	width: 940px;
+	float: left;
+}
+.host-hd {
+	margin:0px;
+	height: 24px;
+	width: 940px;
+	line-height: 24px;
+	padding-left: 20px;
+	background-color: #ff4401;
+	float: left;
+	color:#ffffff;
+	font-family: "微软雅黑";
+}
+.contact_me {
+}
+.contact_me img {
+	width:16px;
+	height:16px;
+}
+

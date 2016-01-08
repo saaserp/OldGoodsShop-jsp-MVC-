@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>文件批量上传</title>
+    <link rel="stylesheet" type="text/css" href="pmjFileUpload.css" />
+
+    <script language="JavaScript" type="text/javascript" src="js/pmjFileUpload.js"></script>
+
+    <script language="JavaScript" type="text/javascript">
+        var vault = null;
+        function doOnLoad() {
+            vault = new pmjFileUpload();
+            vault.setImagePath("imgs/");
+            vault.setServerHandlers("UploadHandler.jsp", "GetInfoHandler.jsp", "GetIdHandler.jsp");
+            //vault.setFilesLimit(5);
+            vault.setFileSize(5*1024*1024);
+            vault.fileExt = "GIF,JPG,PNG";//文件格式
+		vault.init("vault1");
+	   }
+    </script>
+
+    <style>
+	body {font-size:12px}
+	.{font-family:arial;font-size:12px}
+	h1 {cursor:hand;font-size:16px;margin-left:10px;line-height:10px}
+	xmp {color:green;font-size:12px;margin:0px;font-family:courier;background-color:#e6e6fa;padding:2px}
+	.hdr{
+		background-color:lightgrey;
+		margin-bottom:10px;
+		padding-left:10px;
+	}
+    </style>
+
+</head>
+<body onLoad="doOnLoad()">
+<div id="vault1">
+    </div>
+</body>
+</html>
